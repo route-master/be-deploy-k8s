@@ -1,4 +1,3 @@
-sudo su
 sudo swapoff -a && sudo sed -i '/swap/s/^/#/' /etc/fstab
 apt update -y && apt upgrade -y
 
